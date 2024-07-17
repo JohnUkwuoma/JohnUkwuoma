@@ -1,0 +1,85 @@
+
+header{
+    height: 8rem;
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+  
+}
+.nav__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list, .btn{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: WHITE;
+}
+.nav__item{
+    list-style: none;
+    margin-right: 30px;
+}
+.btn{
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: transparent;
+    border:  2px solid #fff;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 1s;
+    background-color: orange;
+}
+
+.head{
+    background-image: url(./assets/me\ \(1\).jpg);
+    background-size: cover;
+}
+
+
+
+
+
+.yakubu-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 8rem;
+  }
+  .yakubu-picture {
+    width: fit-content;
+    height: auto;
+    padding-bottom: 5rem;
+  }
+  .yakubu-picture img {
+    width: 23rem;
+    height: 29rem;
+    padding-top: 9rem;
+    padding-left: 4rem;
+  }
+  .paragraph-text {
+    width: fit-content;
+    height: auto;
+  }
+  
+  .paragraph-text h2,
+  h3,
+  p {
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 9rem;
+    word-spacing: 0.2rem;
+  }
